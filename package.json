@@ -1,5 +1,5 @@
 {
-  "name": "@xxczaki/react-click-n-hold",
+  "name": "react-click-n-hold",
   "version": "1.0.0",
   "description": "Long press event for react. Click and hold wrapper component.",
   "main": "dist/main.js",
