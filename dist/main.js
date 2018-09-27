@@ -51,10 +51,17 @@ var ClickNHold = function (_Component) {
             this._timer = null;
         }
 
-    /*Start callback*/
+        /* componentDidUpdate(nextState) {
+           if (this.state.holding !== nextState.holding) {
+             if (this.state.holding === false && this.state.ended === false) {
+               document.documentElement.addEventListener('mouseup', this.end);
+             }
+           }
+         }*/
 
+        /*Start callback*/
 
-    _createClass(ClickNHold, [{
+    }, {
         key: 'start',
         value: function start(e) {
             var ended = this.state.ended;
