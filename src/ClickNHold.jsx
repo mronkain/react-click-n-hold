@@ -26,14 +26,6 @@ export default class ClickNHold extends Component {
         this._timer = null;
     }
 
-    /* componentDidUpdate(nextState) {
-       if (this.state.holding !== nextState.holding) {
-         if (this.state.holding === false && this.state.ended === false) {
-           document.documentElement.addEventListener('mouseup', this.end);
-         }
-       }
-     }*/
-
     /*Start callback*/
     start(e){
         let ended = this.state.ended;
