@@ -15,8 +15,8 @@
     "event"
   ],
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "16.8.5",
+    "react-dom": "18.8.5"
   },
   "repository": {
     "type": "git",
